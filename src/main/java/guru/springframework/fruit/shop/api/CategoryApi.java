@@ -11,7 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 import guru.springframework.fruit.shop.constants.ShopConstants;
 import guru.springframework.fruit.shop.models.CategoryDTO;
 import guru.springframework.fruit.shop.services.CategoryService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 
+@Api("Category API")
 @RestController
 @RequestMapping(ShopConstants.CATEGORY_URL)
 public class CategoryApi {
@@ -25,6 +28,7 @@ public class CategoryApi {
 	}
 
 
+	@ApiOperation(value = "List of all categories")
 	@ResponseStatus(value = HttpStatus.OK)
 	@GetMapping
 	public List<CategoryDTO> getCategories(){
@@ -32,6 +36,7 @@ public class CategoryApi {
 	}
 	
 
+	@ApiOperation(value = "Find category by name")
 	@ResponseStatus(value = HttpStatus.OK)
 	@GetMapping("{name}")
 	public CategoryDTO findCategory(@PathVariable String name){

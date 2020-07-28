@@ -10,6 +10,7 @@ guru\springframework\fruit\shop\bootstrap\BootstrapDataCategory.class
 guru\springframework\fruit\shop\constants\ShopConstants.class
 guru\springframework\fruit\shop\models\CategoryDTO.class
 guru\springframework\fruit\shop\repositories\CustomerRepository.class
+guru\springframework\fruit\shop\config\SwaggerConfig.class
 guru\springframework\fruit\shop\api\CategoryApi.class
 guru\springframework\fruit\shop\bootstrap\BootstrapDataCustomer.class
 guru\springframework\fruit\shop\services\impl\CustomerServiceImpl.class
