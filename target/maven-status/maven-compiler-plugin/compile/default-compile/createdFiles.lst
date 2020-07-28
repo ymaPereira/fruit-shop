@@ -1,0 +1,11 @@
+guru\springframework\fruit\shop\mapper\CategoryMapperImpl.class
+guru\springframework\fruit\shop\FruitShopApplication.class
+guru\springframework\fruit\shop\repositories\CategoryRepository.class
+guru\springframework\fruit\shop\bootstrap\BootstrapDataCategory.class
+guru\springframework\fruit\shop\constants\ShopConstants.class
+guru\springframework\fruit\shop\models\CategoryDTO.class
+guru\springframework\fruit\shop\api\CategoryApi.class
+guru\springframework\fruit\shop\mapper\CategoryMapper.class
+guru\springframework\fruit\shop\services\CategoryService.class
+guru\springframework\fruit\shop\domains\Category.class
+guru\springframework\fruit\shop\services\impl\CategoryServiceImpl.class
