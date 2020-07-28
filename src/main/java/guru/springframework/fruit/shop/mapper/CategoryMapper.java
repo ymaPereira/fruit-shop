@@ -11,6 +11,6 @@ public interface CategoryMapper {
 
 	CategoryMapper INSTANCE = Mappers.getMapper(CategoryMapper.class);
 
-	@Mapping(target = "categoryUrl", expression = "java( guru.springframework.fruit.shop.constants.ShopConstants.CATEGORY_URL+\"/\"+category.getName())")
+	@Mapping(target = "categoryUrl", expression = "java(guru.springframework.fruit.shop.constants.ShopConstants.CATEGORY_URL+\"/\"+category.getName())")
     CategoryDTO categoryToCategoryDTO(Category category);
 }
